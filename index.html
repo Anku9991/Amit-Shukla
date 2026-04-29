@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amit Shukla – Leader | Visionary | Changemaker</title>
+  <meta name="description" content="Official portfolio of Amit Shukla – A dedicated leader from 190, Vidhan Sabha Lambhua, Sultanpur, Uttar Pradesh, committed to community development and positive change." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-logo">AS</div>
+      <div class="preloader-bar"><div class="preloader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <span class="brand-initials">AS</span>
+        <span class="brand-name">Amit Shukla</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#vision" class="nav-link">Vision</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Connect With Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#home" class="mob-link">Home</a></li>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#vision" class="mob-link">Vision</a></li>
+      <li><a href="#achievements" class="mob-link">Achievements</a></li>
+      <li><a href="#gallery" class="mob-link">Gallery</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-bg-overlay"></div>
+    <canvas id="particleCanvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>190, Vidhan Sabha Lambhua, Sultanpur</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line-1">Amit</span>
+        <span class="title-line-2">Shukla</span>
+      </h1>
+      <div class="hero-tagline">
+        <span class="typewriter" id="typewriter"></span>
+        <span class="cursor-blink">|</span>
+      </div>
+      <p class="hero-desc">A relentless voice for the people of 190, Vidhan Sabha Lambhua, Sultanpur — dedicated to progress, integrity, and a brighter future for every citizen.</p>
+      <div class="hero-cta-group">
+        <a href="#about" class="btn-primary">Discover My Journey</a>
+        <a href="#contact" class="btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-value-wrap">
+            <span class="stat-num" data-target="25000">0</span><span class="stat-plus">+</span>
+          </div>
+          <span class="stat-label">People Served</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value-wrap">
+            <span class="stat-num" data-target="150">0</span><span class="stat-plus">+</span>
+          </div>
+          <span class="stat-label">Public Meetings</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-value-wrap">
+            <span class="stat-num" data-target="18">0</span><span class="stat-plus">+</span>
+          </div>
+          <span class="stat-label">Years of Service</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-portrait-wrap">
+      <div class="portrait-glow"></div>
+      <div class="portrait-ring ring-1"></div>
+      <div class="portrait-ring ring-2"></div>
+      <div class="portrait-ring ring-3"></div>
+      <div class="portrait-img-wrap">
+        <img src="assets/portrait.png" alt="Amit Shukla" class="hero-portrait" onerror="this.style.display='none';document.getElementById('portrait-fallback').style.display='flex'"/>
+        <div class="portrait-fallback" id="portrait-fallback">
+          <span>AS</span>
+        </div>
+      </div>
+      <div class="portrait-badge">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+        Leader
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="gold">Amit Shukla</span></h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-card-left" data-aos="fade-right">
+          <div class="about-img-container">
+            <div class="about-img-border"></div>
+            <div class="about-initials-box">
+              <span>AS</span>
+              <div class="about-img-tag">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.66 8L12 2.35 6.34 8C4.78 9.56 4 11.64 4 13.64s.78 4.11 2.34 5.67 3.61 2.35 5.66 2.35 4.1-.79 5.66-2.35S20 15.64 20 13.64 19.22 9.56 17.66 8z"/></svg>
+                Community Servant
+              </div>
+            </div>
+          </div>
+          <div class="about-quote-card">
+            <div class="quote-icon">"</div>
+            <p>Seva hi sabse bada dharm hai — Service to people is the highest duty.</p>
+            <span class="quote-attr">— Amit Shukla</span>
+          </div>
+        </div>
+        <div class="about-content-right" data-aos="fade-left">
+          <h3 class="about-heading">A Man of the People, For the People</h3>
+          <p class="about-text">Amit Shukla is a passionate community leader and public figure hailing from the historic 190, Vidhan Sabha Lambhua, Sultanpur, Uttar Pradesh. Known for his grassroots approach and unwavering dedication, Amit has spent over a decade working tirelessly for the upliftment of his community.</p>
+          <p class="about-text">His journey began with a simple belief — that every individual deserves a dignified life, quality education, and access to basic amenities. From organizing community drives to advocating for local development, Amit has been the bridge between the government and the people.</p>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="info-icon">📍</span>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-value">190, Vidhan Sabha Lambhua, Sultanpur</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🎓</span>
+              <div>
+                <span class="info-label">Education</span>
+                <span class="info-value">Graduate, Social Leadership</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🌐</span>
+              <div>
+                <span class="info-label">Language</span>
+                <span class="info-value">Hindi, English</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🏆</span>
+              <div>
+                <span class="info-label">Known For</span>
+                <span class="info-value">Community Leadership &amp; Development</span>
+              </div>
+            </div>
+          </div>
+          <a href="#vision" class="btn-primary mt20">See My Vision →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISION SECTION -->
+  <section id="vision" class="vision section">
+    <div class="vision-bg"></div>
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag light-tag">Future Goals</span>
+        <h2 class="section-title white">My <span class="gold">Vision</span></h2>
+        <div class="title-underline gold-line"></div>
+        <p class="section-sub white">Building a stronger, more equitable society through decisive action and compassionate leadership.</p>
+      </div>
+      <div class="vision-grid">
+        <div class="vision-card" data-aos="zoom-in" style="--delay:0s">
+          <div class="vision-icon-wrap">
+            <div class="vision-icon">🏥</div>
+          </div>
+          <h3>Healthcare for All</h3>
+          <p>Ensuring accessible, affordable healthcare reaches every corner of 190, Vidhan Sabha Lambhua, Sultanpur — from city centers to remote villages.</p>
+        </div>
+        <div class="vision-card" data-aos="zoom-in" style="--delay:0.1s">
+          <div class="vision-icon-wrap">
+            <div class="vision-icon">📚</div>
+          </div>
+          <h3>Quality Education</h3>
+          <p>Championing modern schools, digital classrooms, and scholarship programs so no child is left behind due to poverty.</p>
+        </div>
+        <div class="vision-card" data-aos="zoom-in" style="--delay:0.2s">
+          <div class="vision-icon-wrap">
+            <div class="vision-icon">💼</div>
+          </div>
+          <h3>Employment &amp; Growth</h3>
+          <p>Creating job opportunities through skill development centers, MSME support, and attracting investment to the region.</p>
+        </div>
+        <div class="vision-card" data-aos="zoom-in" style="--delay:0.3s">
+          <div class="vision-icon-wrap">
+            <div class="vision-icon">🌿</div>
+          </div>
+          <h3>Environment &amp; Cleanliness</h3>
+          <p>Leading green initiatives, cleanliness drives, and sustainable urban planning for a healthier tomorrow.</p>
+        </div>
+        <div class="vision-card" data-aos="zoom-in" style="--delay:0.4s">
+          <div class="vision-icon-wrap">
+            <div class="vision-icon">👩‍👩‍👧</div>
+          </div>
+          <h3>Women Empowerment</h3>
+          <p>Supporting women entrepreneurs, ensuring safety, and creating equal opportunities for every woman in society.</p>
+        </div>
+        <div class="vision-card" data-aos="zoom-in" style="--delay:0.5s">
+          <div class="vision-icon-wrap">
+            <div class="vision-icon">🏗️</div>
+          </div>
+          <h3>Infrastructure Development</h3>
+          <p>Building roads, bridges, and public infrastructure that connects communities and drives economic progress.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MANIFESTO SECTION -->
+  <section class="manifesto section">
+    <div class="container">
+      <div class="manifesto-grid">
+        <div class="manifesto-content" data-aos="fade-right">
+          <span class="section-tag">My Commitment</span>
+          <h2 class="section-title">The <span class="gold">Sankalp</span> Patra</h2>
+          <p class="manifesto-lead">"My only objective is to ensure that the last person in the queue receives the benefits of development."</p>
+          <div class="manifesto-list">
+            <div class="m-item">
+              <span class="m-num">01</span>
+              <div>
+                <h4>Zero Corruption</h4>
+                <p>Ensuring transparency in every government project and direct benefit transfer to citizens.</p>
+              </div>
+            </div>
+            <div class="m-item">
+              <span class="m-num">02</span>
+              <div>
+                <h4>Youth Employment</h4>
+                <p>Setting up 5 New Skill Centers in Sultanpur to make our youth industry-ready.</p>
+              </div>
+            </div>
+            <div class="m-item">
+              <span class="m-num">03</span>
+              <div>
+                <h4>Farmer Welfare</h4>
+                <p>Implementing modern irrigation and providing cold storage facilities for local farmers.</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn-primary mt20">Download Full Vision 2026 (PDF)</button>
+        </div>
+        <div class="manifesto-visual" data-aos="fade-left">
+          <div class="visual-box">
+            <div class="visual-bg-pattern"></div>
+            <div class="visual-stat">
+              <span class="vs-num">100%</span>
+              <span class="vs-label">Dedication</span>
+            </div>
+            <div class="visual-tag">Vikas hi Lakshya</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS SECTION -->
+  <section id="news" class="news section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Press & Updates</span>
+        <h2 class="section-title">Latest <span class="gold">News</span></h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="news-grid">
+        <div class="news-card" data-aos="fade-up">
+          <div class="news-img-placeholder">📢</div>
+          <div class="news-content">
+            <span class="news-date">April 25, 2026</span>
+            <h3>Amit Shukla visits Lambhua schools to inspect new labs</h3>
+            <p>Amit Shukla interacted with students and promised more digital resources for government schools.</p>
+            <a href="#" class="news-link">Read More →</a>
+          </div>
+        </div>
+        <div class="news-card" data-aos="fade-up" style="--delay:0.1s">
+          <div class="news-img-placeholder">🤝</div>
+          <div class="news-content">
+            <span class="news-date">April 18, 2026</span>
+            <h3>Community interaction program held at Sultanpur Center</h3>
+            <p>Thousands joined the interaction program to discuss local infrastructure challenges.</p>
+            <a href="#" class="news-link">Read More →</a>
+          </div>
+        </div>
+        <div class="news-card" data-aos="fade-up" style="--delay:0.2s">
+          <div class="news-img-placeholder">🚑</div>
+          <div class="news-content">
+            <span class="news-date">April 10, 2026</span>
+            <h3>Free Medical Camp organized for 500+ families</h3>
+            <p>Amit Shukla's team organized a mega health camp providing free checkups and medicines.</p>
+            <a href="#" class="news-link">Read More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="achievements section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Track Record</span>
+        <h2 class="section-title">Key <span class="gold">Achievements</span></h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item left" data-aos="fade-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2010</span>
+            <h3>Community Service Begins</h3>
+            <p>Started grassroots community work in 190, Vidhan Sabha Lambhua, Sultanpur, organizing health camps, cleanliness drives, and youth programs.</p>
+          </div>
+        </div>
+        <div class="timeline-item right" data-aos="fade-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2013</span>
+            <h3>Youth Leader Recognition</h3>
+            <p>Recognized as a dynamic youth leader for mobilizing thousands of young volunteers across 190, Vidhan Sabha Lambhua, Sultanpur district.</p>
+          </div>
+        </div>
+        <div class="timeline-item left" data-aos="fade-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2016</span>
+            <h3>Development Projects Initiated</h3>
+            <p>Spearheaded 20+ local infrastructure and development projects including road repair, water access, and street lighting.</p>
+          </div>
+        </div>
+        <div class="timeline-item right" data-aos="fade-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2019</span>
+            <h3>Social Welfare Campaigns</h3>
+            <p>Led major awareness campaigns for farmer welfare, women safety, and free legal aid reaching over 5000 families.</p>
+          </div>
+        </div>
+        <div class="timeline-item left" data-aos="fade-right">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2022</span>
+            <h3>COVID Relief &amp; Rehabilitation</h3>
+            <p>Coordinated relief operations providing food, medicine, and oxygen support to hundreds of families during the pandemic.</p>
+          </div>
+        </div>
+        <div class="timeline-item right" data-aos="fade-left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-year">2024</span>
+            <h3>Expanding Digital Outreach</h3>
+            <p>Building a strong digital presence to connect with citizens, share development updates, and gather community feedback.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="gallery-section section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Moments</span>
+        <h2 class="section-title">Photo <span class="gold">Gallery</span></h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall" data-aos="fade-up">
+          <img src="assets/fb_photo1.png" alt="Community Meeting" class="gallery-img">
+          <div class="gallery-overlay"><span>Evening Group Meeting</span></div>
+        </div>
+        <div class="gallery-item" data-aos="fade-up" style="--delay:0.1s">
+          <img src="assets/fb_photo2.png" alt="Public Address" class="gallery-img">
+          <div class="gallery-overlay"><span>Meeting with Elder</span></div>
+        </div>
+        <div class="gallery-item" data-aos="fade-up" style="--delay:0.2s">
+          <img src="assets/fb_photo3.png" alt="Green Initiative" class="gallery-img">
+          <div class="gallery-overlay"><span>Interaction with Supporters</span></div>
+        </div>
+        <div class="gallery-item wide" data-aos="fade-up" style="--delay:0.3s">
+          <img src="assets/fb_photo4.png" alt="Health Camp" class="gallery-img">
+          <div class="gallery-overlay"><span>Public Gathering</span></div>
+        </div>
+        <div class="gallery-item" data-aos="fade-up" style="--delay:0.4s">
+          <img src="assets/fb_photo5.png" alt="Education Drive" class="gallery-img">
+          <div class="gallery-overlay"><span>Formal Event</span></div>
+        </div>
+        <div class="gallery-item" data-aos="fade-up" style="--delay:0.5s">
+          <img src="assets/fb_photo6.png" alt="Social Celebration" class="gallery-img">
+          <div class="gallery-overlay"><span>Social Celebration</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">People Speak</span>
+        <h2 class="section-title">What They <span class="gold">Say</span></h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="testimonial-slider" id="testimonialSlider">
+        <div class="testimonial-track" id="testimonialTrack">
+          <div class="testimonial-card">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"Amit bhai ne humare gaon mein pani ki samasya solve ki jo 10 saal se chal rahi thi. Woh sach mein logon ke liye kaam karte hain."</p>
+            <div class="tcard-author">
+              <div class="tcard-avatar">RV</div>
+              <div><strong>Ramesh Verma</strong><span>190, Vidhan Sabha Lambhua, Sultanpur Village</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"His dedication to the youth of 190, Vidhan Sabha Lambhua, Sultanpur is unmatched. The skill development center he helped establish gave me and 200 others our first job opportunity."</p>
+            <div class="tcard-author">
+              <div class="tcard-avatar">PK</div>
+              <div><strong>Priya Kushwaha</strong><span>Local Entrepreneur</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"During COVID, Amit ji was the first one on the ground distributing medicine and oxygen cylinders. He risked his own life to save ours."</p>
+            <div class="tcard-author">
+              <div class="tcard-avatar">SK</div>
+              <div><strong>Suresh Kumar</strong><span>190, Vidhan Sabha Lambhua, Sultanpur Resident</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"A true leader who listens, acts, and delivers. Amit Shukla represents the kind of leadership our generation has been waiting for."</p>
+            <div class="tcard-author">
+              <div class="tcard-avatar">AM</div>
+              <div><strong>Anjali Mishra</strong><span>Teacher, 190, Vidhan Sabha Lambhua, Sultanpur</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevBtn">&#8592;</button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn" id="nextBtn">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact section">
+    <div class="contact-bg"></div>
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag light-tag">Reach Out</span>
+        <h2 class="section-title white">Let's <span class="gold">Connect</span></h2>
+        <div class="title-underline gold-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <h3>Have a message for Amit?</h3>
+          <p>Whether you're a concerned citizen, a journalist, or a fellow change-maker — Amit Shukla's door is always open.</p>
+          <div class="contact-items">
+            <a href="https://www.facebook.com/amit.shukla.85021" target="_blank" class="contact-item" id="contact-facebook">
+              <div class="ci-icon fb-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </div>
+              <div>
+                <span class="ci-label">Facebook</span>
+                <span class="ci-value">amit.shukla.85021</span>
+              </div>
+            </a>
+            <div class="contact-item" id="contact-location">
+              <div class="ci-icon loc-icon">📍</div>
+              <div>
+                <span class="ci-label">Location</span>
+                <span class="ci-value">190, Vidhan Sabha Lambhua, Sultanpur, Uttar Pradesh</span>
+              </div>
+            </div>
+            <div class="contact-item" id="contact-availability">
+              <div class="ci-icon avail-icon">🕐</div>
+              <div>
+                <span class="ci-label">Availability</span>
+                <span class="ci-value">Mon – Sat, 10 AM – 6 PM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrap" data-aos="fade-left">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="Enter your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="What is this about?" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width" id="submitBtn">
+              <span>Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <div class="form-success" id="formSuccess">
+              ✅ Thank you! Your message has been sent successfully.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-initials">AS</div>
+        <div>
+          <h4>Amit Shukla</h4>
+          <p>Leader · Visionary · Changemaker</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#vision">Vision</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/amit.shukla.85021" target="_blank" class="social-btn" id="footer-facebook" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Amit Shukla. All Rights Reserved. | 190, Vidhan Sabha Lambhua, Sultanpur, Uttar Pradesh, India</p>
+      <p class="footer-tagline">जनसेवा ही परमधर्म है — Service to People is the Supreme Duty</p>
+    </div>
+    <div class="footer-tricolor">
+      <div class="tc-saffron"></div>
+      <div class="tc-white"></div>
+      <div class="tc-green"></div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to Top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
