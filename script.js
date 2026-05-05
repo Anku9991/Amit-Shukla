@@ -156,15 +156,22 @@ document.addEventListener("DOMContentLoaded", () => {
     const button = contactForm.querySelector("button");
     if (!button || !formStatus) return;
 
-    button.disabled = true;
-    button.textContent = "भेजा जा रहा है...";
+    const name = document.getElementById("name")?.value.trim() || "";
+    const email = document.getElementById("email")?.value.trim() || "";
+    const subject = document.getElementById("subject")?.value.trim() || "संपर्क संदेश";
+    const message = document.getElementById("message")?.value.trim() || "";
+    const whatsappMessage = [
+      "नमस्ते अमित जी,",
+      "",
+      `नाम: ${name}`,
+      `ईमेल: ${email}`,
+      `विषय: ${subject}`,
+      "",
+      `संदेश: ${message}`
+    ].join("\n");
 
-    window.setTimeout(() => {
-      contactForm.reset();
-      formStatus.textContent = "धन्यवाद! आपका संदेश प्राप्त हो गया है।";
-      button.disabled = false;
-      button.textContent = "संदेश भेजें";
-    }, 850);
+    window.open(`https://wa.me/919455541616?text=${encodeURIComponent(whatsappMessage)}`, "_blank", "noopener");
+    formStatus.textContent = "WhatsApp खुल गया है। कृपया वहां संदेश भेजें।";
   });
 
   initDepthCanvas();
